@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e7a4f494a3.js" crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <div class="bg-ini"></div>
+</body>
+<section>
+    <div class="container">
+        <div class="content"></div>
+        <div class="titles">
+            <a href="/index.html"> <i class="fa-solid fa-arrow-left flexa"></i></a>
+            <h3 class="title">Cadastro</h3>
+            <h4 class="subtitle">Olá, <br>Seja Bem Vindo a nossa Plataforma!</h4>
+        </div>
+        <form action="cadastro" class="forms">
+                <label for="User" class="label-email">Email</label> <br>
+                <input type="text" id="User" name="email" class="input-email">
+                <label for="User" class="label-email2">Confirme seu Email</label>
+                <input type="text" id="User" name="email" class="input-email2">
+                <label for="Password" class="label-password">Senha</label>
+                <i class="fa-solid fa-eye olho" onclick="mostrarSenha()"></i>
+                <input type="password" id="Password" name="password" class="input-password">
+                <label for="Password" class="label-password2">Confirme sua senha</label>
+                <i class="fa-solid fa-eye olho2" onclick="mostrarSenhaC()"></i>
+                <input type="password" id="Password2" name="password" class="input-password2">
+                <button href="#" class="btn-cad">Cadastrar </button>
+        </form> 
+        <img src="/src/boy-cad.png" alt="Boy-Illustration" class="boy">
+        <img src="/src/bola.png" alt="circle Illustration" class="circle">
+        <img src="/src/forms.png" alt="forms-illustration" class="forma">
+        <p class="footer">Já possui uma conta? <a href="/index.html">Faça o login.</a></p>
+    </div>
+</section>
+</html>

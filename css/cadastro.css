@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.bg-ini {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgb(160, 226, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 201, 240, 1) 0%,
+    rgba(160, 226, 235, 1) 100%
+  );
+  filter: blur(5px);
+  z-index: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 540px;
+  height: 620px;
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.titles {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  font-family: "Quicksand", sans-serif;
+  z-index: 2;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+
+  margin-top: -260px;
+  margin-left: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: normal;
+
+  margin-top: 30px;
+  margin-left: -50px;
+}
+.forms {
+  position: absolute;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: -360px;
+  margin-top: -200px;
+
+  z-index: 20;
+}
+
+.label-email {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.input-email {
+  position: absolute;
+  margin-top: 10px;
+  padding-left: 5px;
+  width: 356px;
+  height: 41px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+.flexa {
+  position: absolute;
+  margin-top: -240px;
+  margin-left: -100px;
+  color: black;
+  z-index: 4;
+}
+
+.label-email2 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 10px;
+  width: 150px;
+}
+.input-email2 {
+  position: absolute;
+  margin-top: 90px;
+  padding-left: 5px;
+  width: 356px;
+  height: 41px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+.label-password {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 10px;
+}
+.input-password {
+  position: absolute;
+  margin-top: 170px;
+  padding-left: 5px;
+  width: 356px;
+  height: 41px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+.label-password2 {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 10px;
+  width: 150px;
+}
+.input-password2 {
+  position: absolute;
+  margin-top: 250px;
+  padding-left: 5px;
+  width: 356px;
+  height: 41px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+.btn-cad {
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 230px;
+
+  height: 41px;
+  width: 131px;
+  background-color: #da66ec;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: -4px -2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-cad:hover {
+  background-color: #ea62ff;
+  cursor: pointer;
+}
+.boy {
+  position: absolute;
+  transform: rotate(9.92);
+  margin-left: -300px;
+  animation: movi-top 5s infinite;
+
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  margin-left: 310px;
+  margin-top: 320px;
+  animation: movi-top 3s infinite;
+
+  z-index: 2;
+}
+
+.forma {
+  position: absolute;
+  margin-left: 320px;
+  margin-top: -240px;
+  animation: movi-top 4s infinite;
+
+  z-index: 2;
+}
+
+.olho {
+  position: absolute;
+  margin-top: 186px;
+  margin-left: 328px;
+  z-index: 50;
+  cursor: pointer;
+  color: black;
+  opacity: 50%;
+}
+.olho2 {
+  position: absolute;
+  margin-top: 266px;
+  margin-left: 328px;
+  z-index: 50;
+  cursor: pointer;
+  color: black;
+  opacity: 50%;
+}
+
+.forms i:active {
+  color: black;
+  opacity: 100%;
+}
+
+.footer {
+  position: absolute;
+
+  margin-top: 620px;
+  z-index: 5;
+}
+
+.footer a {
+  color: #54b770;
+}
+
+@keyframes movi-top {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
